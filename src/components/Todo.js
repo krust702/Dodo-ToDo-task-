@@ -9,6 +9,7 @@ export default function Todo(props) {
     const editButtonRef = useRef(null);
     const wasEditing = usePrevious(isEditing);
 
+
     function usePrevious(value) {
         const ref = useRef();
         useEffect(() => {
